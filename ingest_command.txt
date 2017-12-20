@@ -1,0 +1,1 @@
+drush -v -d --user=bcoles --uri=http://maccready.library.caltech.edu islandora_batch_ingest

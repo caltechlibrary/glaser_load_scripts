@@ -1,0 +1,1 @@
+drush -v -d --user=bcoles --uri=http://glaser.library.caltech.edu islandora_book_batch_preprocess --content_models=islandora:bookCModel --namespace=dag --parent=islandora:dag --do_not_generate_ocr --type=directory --target=/load/DAG_1_1_1_batch
