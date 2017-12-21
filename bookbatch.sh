@@ -4,6 +4,11 @@
 # It expects a folder of tif files that are in sequence like pages of a book:
 # (e.g MYBOOK_001.tif, .. ,MYBOOK_345.tif) and it will output the structure as required by the module
 
+# This version of the script does not zip up the final folder (there's not
+# really any point in that if all operations are done on the server, i.e.,
+# the folder doesn't need to be uploaded. For zipped output, see the related
+# script 'bookbatch_zip.sh'.
+
 if [ -z "$1" ]
   then
     echo "Specify the folder of the tif images"

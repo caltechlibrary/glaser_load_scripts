@@ -34,7 +34,7 @@
 #
 # Input mapping to MODS:
 #
-# TBD ... FIXME
+# See code below.
 #
 # Note that the current version of this script is hard-coded for the Glaser
 # Collection.  Ideally, there would be a configuration file specifying 
@@ -166,7 +166,8 @@ $subseries_text{'8'}{'4'} = "Audio";
 $subseries_text{'8'}{'5'} = "Film and video";
 
 my $output_file_name;
- 
+
+# input and output files hardcoded for now
 open(IN, "<:encoding(UTF-8)", "../Glaser_Metadata_final_10242017.txt") or die "*** Cannot open Glaser_Metadata_final_10242017.txt for input - terminating\n";
 # open(IN, "<", "../Glaser_Metadata_sample_10242017.txt") or die "*** Cannot open Glaser_Metadata_sample_10242017.txt for input - terminating\n";
 # open(IN, "<", "../Glaser_Metadata_small_sample_10242017.txt") or die "*** Cannot open Glaser_Metadata_small_sample_10242017.txt for input - terminating\n";

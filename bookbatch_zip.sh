@@ -4,6 +4,8 @@
 # It expects a folder of tif files that are in sequence like pages of a book:
 # (e.g MYBOOK_001.tif, .. ,MYBOOK_345.tif) and it will output the structure as required by the module
 
+# This is a variant of bookbatch.sh.  This version zips up the final folder.
+ 
 if [ -z "$1" ]
   then
     echo "Specify the folder of the tif images"
