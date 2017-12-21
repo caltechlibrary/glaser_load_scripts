@@ -34,7 +34,7 @@ Note that in future, we will probably need to generate mods directly from the EA
 
 ## Preparing packages for bookbatch loading
 
-The script `bookbatch.sh` expects to find folders full of scanned pages in the current directory, as well as corresponding MODS records in a directory specified as a parameter.  It matches folders with MODS records by matching the file names which are expected to be in the series-box-folder format described above.  See the Islandora book batch documentation for details of the output package format: https://wiki.duraspace.org/display/ISLANDORA/Islandora+Book+Batch.
+The script `bookbatch.sh` expects to find folders full of scanned pages in the current directory, as well as corresponding MODS records in a directory currently hardcoded in the script (should be fixed!).  It matches folders with MODS records by matching the file names which are expected to be in the series-box-folder format described above.  See the Islandora book batch documentation for details of the output package format: https://wiki.duraspace.org/display/ISLANDORA/Islandora+Book+Batch.
 
 the script `bookbatch_zip.sh` is a variant form that zips up the output packages.  This can be useful if the packages are to be uploaded or moved from one server to another, but is not generally needed when the whole process is carried out on the Islandora server.
 
